@@ -1,3 +1,4 @@
+#[derive(Debug)]
 pub struct JumpIndex {
     jump_stack_index: usize,
 }
@@ -16,6 +17,7 @@ impl JumpIndex {
     }
 }
 
+#[derive(Debug)]
 pub enum Token {
     IncrementCell,
     DecrementCell,
